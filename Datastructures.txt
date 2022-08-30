@@ -1,0 +1,41 @@
+what is data stuctures ?
+data stuctures are differentway of organizationdata on your computer that can be used efficiently.
+
+
+what is algorithm ?
+set of step to accomplish a task
+
+algorithm
+set os rules for a computer program to accomplish a task
+
+input data ->> calculate the data ->> stop when answer found 
+
+what makes a good algorithm ?
+1) correctness
+2) efficiency
+
+
+types of algorithm ?
+1) simple recursive algorithm
+2) divide and conquer algorithm
+3) dynamic programming algorithm
+4) greedy algorithm
+5) randomized algorithm
+6) brute force algorithm
+
+simple recursive algorithm
+algorithm having another alogorithm inside algorithm
+
+ex
+algorithm Sum(A,n)
+     if n=1
+        retune a[0]
+    s=Sum(A,n-1)
+    s=s+A[n-1]
+    retune s
+
+
+2) divide and contraction   algorithm
+divide the problem into samller subproblems of the same . type , and solve these subproblems recurively
+combline the solution to the subproblems into a solution to the original problem
+ex:- quick sort and merge sort
