@@ -39,3 +39,18 @@ algorithm Sum(A,n)
 divide the problem into samller subproblems of the same . type , and solve these subproblems recurively
 combline the solution to the subproblems into a solution to the original problem
 ex:- quick sort and merge sort
+
+3)dynamic programming algorthim 
+they work based on memoization
+to find the best solution
+
+4)gredy algorithm
+we take the best we without worring about fucture consequences 
+we hope that by a local optimum solution at each step , we will endup at  global optimum solution
+
+5) brute force algorithm
+it simply tries all possiblities untill satifactory solution is found
+
+6) randomized algroithm 
+use a random number at least onces during the computation to make a dectision
+
