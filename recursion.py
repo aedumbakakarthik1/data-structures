@@ -26,6 +26,45 @@ when to choose the recursive function ?
 3)interview
 4)it is used in many algorithm(divide and conquer,greedy and dynamic programming)
 
+how recursion work ?
+1)a method calls itself to
+2)exit from infinite loop
+
+code 
+
+def recursionMethod():
+    if exit from condition satisfies:
+        return some value
+    else:
+        recursionMethod(modified parameter)
+
+
 
 
 """
+
+def firstMethod():
+    secondMethod()
+    print("i am the first method")
+def secondMethod():
+    thirdMethod()
+    print("i am the second method")
+def thirdMethod():
+    fourthMethod()
+    print("i am the third method")
+def fourthMethod():
+    print("i am the fourth method")
+print(firstMethod())
+
+#best example
+def recursionMethod(n):
+    if n<1:
+        print("n is less than 1")
+    else:
+        recursionMethod(n-1)
+        print(n)
+recursionMethod(4)
+
+### here the  recursionMethod was always us the stack memory(first in last out)
+
+"""when to use / avoid recursion ?"""
