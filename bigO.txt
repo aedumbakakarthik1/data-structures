@@ -53,3 +53,16 @@ for i in array:
     print(array[i]);
 //'liner time since it is visting every element of array
 
+0(log N) logarithmic time
+=================================
+arr = [1,2,3,4,5,6,7,8]
+for i in range(0,len(arr),3):
+    print(arr[i])
+// logarithmictime since it is visting every element
+
+0(n^2) quadratic time
+=================================
+arr = [1,2,3,4,5,6,7,8,9]
+for i in arr:
+    for j in arr:
+        print(i,j)
