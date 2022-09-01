@@ -1,0 +1,55 @@
+big O natation
+Big O is a language and metric we use to descible the efficiency og algorithm
+
+
+
+algorithm run time notation
+================================================
+1) best case
+2) average case
+3) worst case
+
+
+big 0 
+================================================================
+it is complexity that is going to be less or equal to the worst case
+
+big _ omega
+================================================================
+it is complexity that going to be least more that the best case
+
+big theta
+================================================================
+it is complexity that is with in bounds of the worst and the best case
+
+
+
+
+algorithm run time complexity
+================================================
+complexity               name                        sample
+
+o(1)                  constant                     accessing a specific element in array
+o(N)                  liner                        loop through array element
+o(logN)               logarithmic                  find an element in sorted array
+0(n^2)                quadratic                    looking or a eveey idex in array twies
+o(2^N)                exponential                  double recurison in fibanacci
+
+
+
+
+
+0(1) constant time
+================================================================
+array =[1,2,3,4,5,6,7];
+array[9] // it take constant time to acces the element
+
+
+
+o(N) liner
+================================================================
+array =[1,2,3,4,5,6,7];
+for i in array:
+    print(array[i]);
+//'liner time since it is visting every element of array
+
