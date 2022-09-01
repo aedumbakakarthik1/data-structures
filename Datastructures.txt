@@ -21,6 +21,7 @@ types of algorithm ?
 3) dynamic programming algorithm
 4) greedy algorithm
 5) randomized algorithm
+
 6) brute force algorithm
 
 simple recursive algorithm
